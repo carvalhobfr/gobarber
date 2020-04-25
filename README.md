@@ -19,24 +19,61 @@ GoBarber
 
 <hr />
 
-## Features
+## Usage
 
-This app features all the latest tools and practices in web development!
+The first step is to create your account, then you can login and choose a barber, check his schedule and make an appointment.
 
-- ⚛ **React** — A library to build user interfaces
-- ♻ **Redux with Redux Saga** — State management with middleware
-- 💅 **CSS** — styled-components
-- 🌸 **Reactotron** - Helps debugging process
-- 💖 **Lint** — ESlint/Prettier/Editor Config
+## Technologies
 
-## Getting started
+- [Node](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
+- [Express-Session](https://www.npmjs.com/package/express-session/)
+- [Sequelize](http://docs.sequelizejs.com/)
+- [Postgres](https://www.postgresql.org/)
+- [Bcrypt](https://www.npmjs.com/package/bcryptjs/)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
+- [Multer](https://github.com/expressjs/multer/)
+- [Moment.JS](https://momentjs.com/)
+- [Connect-Loki](https://www.npmjs.com/package/connect-loki/)
+- [Connect-Flash](https://github.com/jaredhanson/connect-flash/)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [Eslint-Airbnb](https://eslint.org/)
+- [Nodemon](https://nodemon.io/)
 
-_Before you run this application you need to make sure the [server](https://github.com/jpedroschmitz/gobarber-api) is running!_.
+## Installation
 
-1. Clone this repo using `https://github.com/carvalhobfr/gobarber.git`
-2. Move to the appropriate directory: `cd gobarber`.<br />
-3. Run `yarn` to install dependencies.<br />
-4. Run `yarn start` to see the example app at `http://localhost:3000`.
+Clone the project with
+
+```sh
+git clone https://github.com/carvalhobfr/gobarber.git
+```
+
+Get in the path project, then install the dependencies with:
+
+```sh
+yarn
+```
+
+Then, you have to create your postgres database (Or another if you want) and fill your own fields in .env file.
+
+Now, you have to create tables with the command:
+
+```sh
+npx sequelize db:migrate
+```
+
+After database config, you can start the server with:
+
+```sh
+yarn start
+```
+
+If you are in development environment, you can use the development server:
+
+```sh
+yarn dev
+```
+
 
 ## Contributing
 
@@ -44,4 +81,4 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+[MIT](https://choosealicense.com/licenses/mit/)
