@@ -85,4 +85,4 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Created by:
 
-Matheus Carvalho – [@Fernando](https://www.linkedin.com/in/matheusrcarvalho/) 
+Matheus Carvalho – [@Matheus](https://www.linkedin.com/in/matheusrcarvalho/) 
